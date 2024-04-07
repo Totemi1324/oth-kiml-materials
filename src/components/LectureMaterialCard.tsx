@@ -17,9 +17,13 @@ export default function LectureMaterialCard({ title, unitNumber, links }: Lectur
             </CardHeader>
             <CardBody className="gap-4">
                 {
-                    links.map((link) => {
+                    links.map((link, index) => {
                         return (
-                            <ButtonLinkList title={link.title} uri={link.uri}/>
+                            <ButtonLinkList
+                                key={index}
+                                title={link.title}
+                                uri={link.uri}
+                            />
                         );
                     })
                 }
