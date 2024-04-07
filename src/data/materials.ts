@@ -6,11 +6,11 @@ interface SemesterMaterials {
 export interface LectureMaterial {
     title: string,
     unitNumber: number,
-    links: Link[],
+    links: AnnotatedLink[],
     unlockTime: Date,
 }
 
-export interface Link {
+export interface AnnotatedLink {
     title: string,
     uri: string,
 }
