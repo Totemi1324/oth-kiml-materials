@@ -90,5 +90,9 @@ export const semesterMaterials: SemesterMaterials[] = [
                 unlockTime: new Date("2024-04-13T12:00:00"),
             },
         ]
+    },
+    {
+        id: "WS 2024/25",
+        materials: []
     }
 ]

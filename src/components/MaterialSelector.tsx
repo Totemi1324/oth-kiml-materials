@@ -1,3 +1,5 @@
+"use client";
+
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import { semesterMaterials, LectureMaterial } from "@/data/materials";
 
@@ -6,7 +8,7 @@ import LectureMaterialList from "./LectureMaterialList";
 export default function MaterialSelector() {
     return (
         <div className="flex w-full flex-col">
-            <Accordion variant="light">
+            <Accordion>
                 {
                     semesterMaterials.map((semesterMaterial, i) => {
                         const id: string = semesterMaterial.id;

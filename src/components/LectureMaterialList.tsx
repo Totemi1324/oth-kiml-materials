@@ -6,6 +6,6 @@ type LectureMaterialListProps = {
 
 export default function LectureMaterialList(props: LectureMaterialListProps) {
     return (
-        <></>
+        <p>awdw</p>
     )
 }
