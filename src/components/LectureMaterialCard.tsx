@@ -1,6 +1,6 @@
 import { AnnotatedLink } from "@/data/materials";
-import { Card, CardHeader, CardBody, Button, Link } from "@nextui-org/react";
-import { OpenInNewTabIcon } from "@/ui/icons";
+import { Card, CardHeader, CardBody } from "@nextui-org/react";
+import ButtonLinkList from "./ButtonLinkList";
 
 type LectureMaterialCardProps = {
     title: string,
@@ -15,20 +15,11 @@ export default function LectureMaterialCard({ title, unitNumber, links }: Lectur
                 <p className="font-bold">{title}</p>
                 <p className="text-gray-500 text-sm">Einheit {unitNumber}</p>
             </CardHeader>
-            <CardBody className="items-start gap-4">
+            <CardBody className="gap-4">
                 {
                     links.map((link) => {
                         return (
-                            <div className="flex gap-4 items-start">
-                                <Link isExternal href={link.uri}>
-                                    <Button color="primary" endContent={<OpenInNewTabIcon />}>
-                                        {link.title}
-                                    </Button>
-                                </Link>
-                                <Button color="primary" variant="bordered">
-                                    Link kopieren
-                                </Button>
-                            </div>
+                            <ButtonLinkList title={link.title} uri={link.uri}/>
                         );
                     })
                 }
