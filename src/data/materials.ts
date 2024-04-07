@@ -3,19 +3,19 @@ interface SemesterMaterials {
     materials: LectureMaterial[],
 }
 
-interface LectureMaterial {
+export interface LectureMaterial {
     title: string,
     unitNumber: number,
     links: Link[],
     unlockTime: Date,
 }
 
-interface Link {
+export interface Link {
     title: string,
     uri: string,
 }
 
-export const materials: SemesterMaterials[] = [
+export const semesterMaterials: SemesterMaterials[] = [
     {
         id: "SS 2024",
         materials: [
