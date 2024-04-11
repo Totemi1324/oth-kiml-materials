@@ -89,6 +89,17 @@ export const semesterMaterials: SemesterMaterials[] = [
                 ],
                 unlockTime: new Date("2024-04-13T12:00:00"),
             },
+            {
+                title: "Neural Networks (Videoreihe) von 3Blue1Brown",
+                unitNumber: 2,
+                links: [
+                    {
+                        title: "Playlist",
+                        uri: "https://www.youtube.com/playlist?list=PLgxo3DDiqnvAmMOTzZbgD9d4gtQ9V7Lig"
+                    },
+                ],
+                unlockTime: new Date("2024-04-13T13:00:00"),
+            },
         ]
     }
 ]
