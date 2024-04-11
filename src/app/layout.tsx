@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import { Providers } from "./providers";
 import { primary_font } from "@/ui/fonts";
@@ -16,11 +17,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="de" suppressHydrationWarning>
       <body className={`${primary_font.className} antialiased`}>
         <Providers attribute="class" defaultTheme="system">
           {children}
         </Providers>
+        <SpeedInsights/>
       </body>
     </html>
   );
