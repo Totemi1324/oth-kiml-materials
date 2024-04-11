@@ -28,7 +28,7 @@ export const semesterMaterials: SemesterMaterials[] = [
                         uri: "https://www.desmos.com/calculator/r9fm4syebi?lang=de"
                     }
                 ],
-                unlockTime: new Date("2024-04-08T16:00:00"),
+                unlockTime: new Date("2024-04-12T16:00:00"),
             },
             {
                 title: "Die Kostenfunktion (Animiertes GIF)",
@@ -39,7 +39,7 @@ export const semesterMaterials: SemesterMaterials[] = [
                         uri: "https://gifyu.com/image/SnwYe"
                     }
                 ],
-                unlockTime: new Date("2024-04-08T16:00:00"),
+                unlockTime: new Date("2024-04-12T16:00:00"),
             },
             {
                 title: "Mitmachübung: Interaktives Modell eines Perzeptrons",
