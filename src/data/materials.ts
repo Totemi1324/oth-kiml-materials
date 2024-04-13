@@ -87,7 +87,7 @@ export const semesterMaterials: SemesterMaterials[] = [
                         uri: "https://github.com/Totemi1324/neural-networks-demo"
                     },
                 ],
-                unlockTime: new Date("2024-04-13T12:00:00"),
+                unlockTime: new Date("2024-04-13T11:00:00"),
             },
             {
                 title: "Neural Networks (Videoreihe) von 3Blue1Brown",
