@@ -145,6 +145,17 @@ export const semesterMaterials: SemesterMaterials[] = [
         unlockTime: new Date("2024-04-19T17:30:00"),
       },
       {
+        title: "Support Vector Machines (SVMs) zum Ausprobieren",
+        unitNumber: 4,
+        links: [
+          {
+            title: "Demo",
+            uri: "https://greitemann.dev/svm-demo",
+          },
+        ],
+        unlockTime: new Date("2024-04-20T09:00:00"),
+      },
+      {
         title: "Visualisierung k-nearest neighbors (Animiertes GIF)",
         unitNumber: 4,
         links: [
