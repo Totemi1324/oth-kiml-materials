@@ -192,6 +192,94 @@ export const semesterMaterials: SemesterMaterials[] = [
         ],
         unlockTime: new Date("2024-04-20T09:00:00"),
       },
+      {
+        title: "Fashion-MNIST Inspektor",
+        unitNumber: 5,
+        links: [
+          {
+            title: "KnowYourData",
+            uri: "https://knowyourdata-tfds.withgoogle.com/#tab=STATS&dataset=fashion_mnist",
+          },
+        ],
+        unlockTime: new Date("2024-04-26T14:30:00"),
+      },
+      {
+        title: "Kernels zum Ausprobieren",
+        unitNumber: 5,
+        links: [
+          {
+            title: "Filterlabor",
+            uri: "https://editor.p5js.org/MaschinenNah/full/PZYCjAsie",
+          },
+        ],
+        unlockTime: new Date("2024-04-26T15:00:00"),
+      },
+      {
+        title: "CNN Explainer",
+        unitNumber: 5,
+        links: [
+          {
+            title: "Übung",
+            uri: "https://poloclub.github.io/cnn-explainer/",
+          },
+        ],
+        unlockTime: new Date("2024-04-26T15:00:00"),
+      },
+      {
+        title: "Das LSTM-Modul (Animiertes GIF)",
+        unitNumber: 6,
+        links: [
+          {
+            title: "Gifyu",
+            uri: "https://gifyu.com/image/SQWlT",
+          },
+        ],
+        unlockTime: new Date("2024-04-27T09:00:00"),
+      },
+      {
+        title: "Attention und Transformers (Videoreihe) von StatQuest",
+        unitNumber: 6,
+        links: [
+          {
+            title: "Playlist",
+            uri: "https://www.youtube.com/watch?v=PSs6nxngL6k&list=PLgxo3DDiqnvA72eCg3Feqn0D7ooEu1lgB&index=3",
+          },
+        ],
+        unlockTime: new Date("2024-04-27T09:00:00"),
+      },
+      {
+        title: "Image-2-Image Demo",
+        unitNumber: 6,
+        links: [
+          {
+            title: "Interaktive GANs",
+            uri: "https://affinelayer.com/pixsrv/index.html",
+          },
+        ],
+        unlockTime: new Date("2024-04-27T09:00:00"),
+      },
+      {
+        title: "Data Labeling-Simulation",
+        unitNumber: 6,
+        links: [
+          {
+            title: "Label Studio",
+            uri: "https://labelstud.io/playground/",
+          },
+        ],
+        unlockTime: new Date("2024-04-27T09:00:00"),
+      },
+      {
+        title: "Machine Learning-Glossar",
+        unitNumber: 6,
+        links: [
+          {
+            title: "Google Developers",
+            uri: "https://developers.google.com/machine-learning/glossary",
+          },
+        ],
+        unlockTime: new Date("2024-04-27T09:00:00"),
+      },
     ],
   },
 ];
