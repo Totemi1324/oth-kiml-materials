@@ -259,6 +259,40 @@ export const semesterMaterials: SemesterMaterials[] = [
         unlockTime: new Date("2024-04-27T09:00:00"),
       },
       {
+        title: "Text Generation Web-UI (Open source-Textgenerator)",
+        unitNumber: 6,
+        links: [
+          {
+            title: "GitHub",
+            uri: "https://github.com/oobabooga/text-generation-webui",
+          },
+          {
+            title: "HuggingFace Modell",
+            uri: "https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF",
+          },
+        ],
+        unlockTime: new Date("2024-04-27T09:00:00"),
+      },
+      {
+        title: "Fooocus (Open source-Bildgenerator)",
+        unitNumber: 6,
+        links: [
+          {
+            title: "GitHub",
+            uri: "https://github.com/lllyasviel/Fooocus",
+          },
+          {
+            title: "HuggingFace Modell",
+            uri: "https://huggingface.co/RunDiffusion/Juggernaut-XL-v9",
+          },
+          {
+            title: "CivitAI",
+            uri: "https://civitai.com/models/133005/juggernaut-xl",
+          },
+        ],
+        unlockTime: new Date("2024-04-27T09:00:00"),
+      },
+      {
         title: "Data Labeling-Simulation",
         unitNumber: 6,
         links: [
